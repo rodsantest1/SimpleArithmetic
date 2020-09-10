@@ -1,0 +1,9 @@
+c:\vso\My VS19 Projects\Concepts\SimpleArithmetic\ClassLibrary1CoreService\bin\Debug\netstandard2.0\ClassLibrary1CoreService.deps.json
+c:\vso\My VS19 Projects\Concepts\SimpleArithmetic\ClassLibrary1CoreService\bin\Debug\netstandard2.0\ClassLibrary1CoreService.dll
+c:\vso\My VS19 Projects\Concepts\SimpleArithmetic\ClassLibrary1CoreService\bin\Debug\netstandard2.0\ClassLibrary1CoreService.pdb
+c:\vso\My VS19 Projects\Concepts\SimpleArithmetic\ClassLibrary1CoreService\obj\Debug\netstandard2.0\ClassLibrary1CoreService.csprojAssemblyReference.cache
+c:\vso\My VS19 Projects\Concepts\SimpleArithmetic\ClassLibrary1CoreService\obj\Debug\netstandard2.0\ClassLibrary1CoreService.AssemblyInfoInputs.cache
+c:\vso\My VS19 Projects\Concepts\SimpleArithmetic\ClassLibrary1CoreService\obj\Debug\netstandard2.0\ClassLibrary1CoreService.AssemblyInfo.cs
+c:\vso\My VS19 Projects\Concepts\SimpleArithmetic\ClassLibrary1CoreService\obj\Debug\netstandard2.0\ClassLibrary1CoreService.csproj.CoreCompileInputs.cache
+c:\vso\My VS19 Projects\Concepts\SimpleArithmetic\ClassLibrary1CoreService\obj\Debug\netstandard2.0\ClassLibrary1CoreService.dll
+c:\vso\My VS19 Projects\Concepts\SimpleArithmetic\ClassLibrary1CoreService\obj\Debug\netstandard2.0\ClassLibrary1CoreService.pdb
