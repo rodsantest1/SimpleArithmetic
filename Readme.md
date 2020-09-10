@@ -1,5 +1,7 @@
 # Arithmetic Architecture Practice  
 
+![AddImage](https://i.imgur.com/Mkt9EhD.png)
+
 8/25/20
 Questions:  
 1. Should you deserialize on backend or frontend  
