@@ -15,17 +15,13 @@ namespace WpfApp1
         {
             InitializeComponent();
 
-            Loaded += async (sender, error) =>
+            ViewModel = new MainWindowViewModel();
+
+            this.WhenActivated(disposables =>
             {
-                await Task.Delay(50);
                 Input1.CaretBrush = new SolidColorBrush(Color.FromArgb(0, 0, 0, 0));
                 Input2.CaretBrush = new SolidColorBrush(Color.FromArgb(0, 0, 0, 0));
-            };
 
-            ViewModel = new MainWindowViewModel();
-            IDisposable disp = null;
-            disp = this.WhenActivated(disposables =>
-            {
                 this.Bind(ViewModel,
                     vm => vm.Input1,
                     v => v.Input1.Text)
@@ -38,7 +34,6 @@ namespace WpfApp1
                     vm => vm.Sum,
                     v => v.Sum.Text)
                     .DisposeWith(disposables);
-                disp.DisposeWith(disposables);
             });
         }
     }
