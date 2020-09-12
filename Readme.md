@@ -1,6 +1,6 @@
 # Arithmetic Architecture Practice  
 
-![AddImage](https://i.imgur.com/Mkt9EhD.png)
+![AddImage](https://i.imgur.com/AITotbs.png)
 
 8/25/20
 Questions:  
