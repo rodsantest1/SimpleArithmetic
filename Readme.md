@@ -2,6 +2,8 @@
 
 ![AddImage](https://i.imgur.com/AITotbs.png)
 
+![AddImage](Image1.png)
+
 8/25/20
 Questions:  
 1. Should you deserialize on backend or frontend  
