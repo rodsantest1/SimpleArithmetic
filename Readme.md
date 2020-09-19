@@ -2,7 +2,7 @@
 
 ![AddImage](https://i.imgur.com/AITotbs.png)
 
-![AddImage](Image1.png)
+![AddImage](Image1.PNG)
 
 8/25/20
 Questions:  
