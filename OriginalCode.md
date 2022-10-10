@@ -14,22 +14,18 @@ namespace WpfApp1
         public MainWindowViewModel()
         {
             AddNumbers = ReactiveCommand.CreateFromTask(AddNumbersHandler);
-            AddNumbers.ToProperty(this, y => y.Sum);
+            AddNumbers.ToProperty(this, y => y.Sum, out _sum);
 
-            this.WhenAnyValue(x => x.Input1, x => x.Input2)
+            this.WhenAnyValue(x => x.Input1, x => x.Input2,
+                (a, b) => !string.IsNullOrEmpty(a) && !string.IsNullOrEmpty(b))
                 .Select(_ => Unit.Default)
                 .InvokeCommand(AddNumbers);
         }
 
         private async Task<string> AddNumbersHandler()
-        {
-            await Task.Delay(1000);
+        {            
+            var sum = await ArithmeticAPIClient.AddNumbersAsync(Input1, Input2);
 
-            //var sum = await ArithmeticAPIClient.AddNumbersAsync(Input1, Input2);
-            
-            //simulating an API return
-            var sum = 2;
-            
             return sum > 0 ? $"{sum}" : "";
         }
 
